@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: hsl(0, 0%, 96%);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    max-height: 500px;
+    overflow-y: auto;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input, select, button {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="date"] {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+
+}
+
+button {
+    background-color: #5cb85c;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4cae4c;
+}
+
+button.edit-button {
+    background-color: #5bc0de;
+}
+
+button.edit-button:hover {
+    background-color: #31b0d5;
+}
+
+button.delete-button {
+    background-color: #d9534f;
+}
+
+button.delete-button:hover {
+    background-color: #c9302c;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #f4f4f4;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+li button{
+    margin-left: 5px;
+}
